@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useState } from 'react'
 import {v4 as uuidv4} from 'uuid'
 import toast from 'react-hot-toast'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Login = () => {
 
@@ -80,6 +80,9 @@ const Login = () => {
         
         
         <button>Login</button>
+
+      <p className='redirectlink'>Didn't have an Account  <Link to='/register'>Register</Link></p>
+        
       </form>
     
 

@@ -15,11 +15,11 @@ const Navbar = () => {
             <h1 className='logo'>Praveen <span>ViewPro</span></h1>
         {
           token ?
-           <div className='reg_login'>
+           <div className='reg_login_btn'>
             <button onClick={handleLogout} className='logout_btn'> Logout</button>
            </div> :
 
-        <div className='reg_login'>
+        <div className='reg_login_btn'>
           <Link to='/login'>Login</Link>
           <Link to='/register'>Register</Link>
         </div>

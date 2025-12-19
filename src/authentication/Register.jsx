@@ -1,8 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import toast from 'react-hot-toast'
-import { useNavigate } from 'react-router-dom'
-
+import { Link, useNavigate } from 'react-router-dom'
 
 //npx json-server --watch backend/register.json --port 8000 
 const Register = () => {
@@ -75,6 +74,8 @@ const Register = () => {
         </div>
         
         <button>Register</button>
+
+        <p className='redirectlink'>Already have an Account  <Link to='/login'>Login</Link></p>
       </form>
     </main>
     </>
