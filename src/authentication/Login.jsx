@@ -26,7 +26,9 @@ const Login = () => {
   let handleSubmit = async (e) =>{
     e.preventDefault()
 
-    let response = await axios.get("http://localhost:8000/registered_users")
+    // let response = await axios.get("http://localhost:8000/registered_users")
+    // let response = await axios.get(".api/db.json/registered_users")
+    let response = await axios.get("/api/db")
     console.log(response);
     let {data}  = response
 

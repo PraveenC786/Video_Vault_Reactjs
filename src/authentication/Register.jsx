@@ -29,7 +29,8 @@ const Register = () => {
         e.preventDefault()
         let payload = registeredUsers
         // await axios.post("http://localhost:8000/registered_users",payload)
-        await axios.post("/api/register", registeredUsers);        navigate("/login")
+        await axios.post("/api/db", payload);        
+        navigate("/login")
         toast.success("Registered Successfully!!")
         
     }

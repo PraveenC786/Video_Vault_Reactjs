@@ -27,7 +27,8 @@ const AddInfo = () => {
   let handleSubmit = (e) => {
     e.preventDefault();
     let payload = state;
-    axios.post("/videos", payload);
+    // axios.post("/api/db", payload);
+    axios.post("/api/db", payload);
     navigator("/videodata");
     toast.success("Data added successfully!");
 
