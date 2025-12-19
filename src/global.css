@@ -40,6 +40,8 @@ nav{
 .reg_login{
     display: flex;
     gap: 20%;
+    border: 1px solid #1b5a7a;
+    background-color: #f3ffb9;
 }
 .reg_login a , .logout_btn {
     text-decoration: none;
