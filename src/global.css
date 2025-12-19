@@ -5,22 +5,23 @@
 }
 
 .logo{
+    font-size:larger;
     width: fit-content;
     background-color: green;
-    color: greenyellow;
-    padding: 5px;
-    border-radius: 10px;
+    color: rgb(234, 237, 230);
+    padding: 5px 10px;
+    border-radius: 50px;
     margin-left: 20px;
     margin-right: 300px;
     margin-top: 5px;
     margin-bottom: 5px;
+    border: 1px solid rgb(6, 71, 3);
 }
 .logo span{
-    background-color: greenyellow;
+    background-color: rgb(245, 247, 243);
     color: green;
-    padding: 3px;
-    border-radius: 10px;
-
+    padding: 0px 5px;
+    border-radius: 50px;
 }
 
 nav{
@@ -48,10 +49,11 @@ nav{
     color: #1b5a7a;
     padding: 5px 15px;
     border-radius: 10px;
+    font-weight: bold;
 }
 .reg_login a:hover , .logout_btn:hover{
     color: black;
-    background: #a6ed8e;
+    background: #f1f3f0;
 }
 .layout{
     display: flex;
@@ -71,10 +73,15 @@ nav{
     margin-top: 20px;
     position: sticky;
 }
+.sidebar ul li{
+    padding: 5px;
+    padding-left: 0px;
+}
 .sidebar ul li a{
-    text-decoration: none;
+text-decoration: none;
     color: #1b5a7a;
-    background-color: #a6ed8e;
+     font-weight: bold;
+    font-size: larger;
     display: block;
     padding: 10px;
     margin: 0 0 20px 0;
@@ -82,13 +89,64 @@ nav{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+.sidebar ul li a:hover{
+    color: #a6ed8e;
+    background-color: #13e035ad;
+   box-shadow: 10px 0px 5px #1b5a7a;
+}
+
+
 /* Login register form styles  */
 .reg_login_form{
+    height: fit-content;
+    width: 50%;
+    padding: 10px;
+
 border: 1px solid #1b5a7a;
     background-color: #f3ffb9;
     margin: 40px auto;
+    border-radius: 20px;
+    h1{
+        margin-left: 45%;
+        border-radius: 20px;
+        padding: 5px 15px;
+        color: green;
+        background-color: #f7f8f9;
+        border: 1px solid gray;
+        border-bottom:5px solid #1b5a7a;
+
+        width: fit-content;
+
+    }
+    .form-group{
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    label{
+        font-weight: bold;
+        text-align: initial;
+        font-size: larger;
+        /* color: #e5ebed; */
+    }
+    input{
+        width: 97%;
+        border-radius: 30px;
+        padding: 10px;
+        padding-left: 15px;
+        font-size: large;
+        color: #1b5a7a;
+    }
     button{
+       margin: 20px;
+        font-weight: bold;
+        font-size: larger;
         border-radius: 15px;
+        padding: 10px 25px;
+        width: 95%;
+        background-color: #1b5a7a;
+    }
+    button:hover{
+        box-shadow: 0px 5px rgba(47, 47, 47, 0.821);
     }
 }
 /* videodata styles  start */
