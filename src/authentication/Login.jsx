@@ -50,7 +50,7 @@ const Login = () => {
     }
   }
   return (
-    <main className='reg_login'>
+    <main className='reg_login_form'>
 
     <h1>Login</h1>
       
