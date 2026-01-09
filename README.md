@@ -77,24 +77,23 @@ It allows users to **Create, Read, Update, Delete** video entries and includes *
 ```bash
 git clone https://github.com/your-username/video-vault.git
 cd video-vault
+```
 
 ### 2️⃣ Install dependencies
 ```bash
 npm install
+```
 
-### 3️⃣ Start JSON Server
-```bash
-json-server --watch videos.json --port 4000
-json-server --watch register.json --port 8000
-
-### 4️⃣ Start React App
+### 3️⃣ Start React App
 ```bash
 npm start
+```
 
 If using Vite + React:
 
 ```bash
 npm run dev
+```
 
 ## 🙋‍♂️ Author
 
